@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(41, 41, 41);
+}
+a.homeRedirect {
+  color: tomato;
+}
+h1.mainHeader {
+  text-align: center;
+  color: aqua;
+}

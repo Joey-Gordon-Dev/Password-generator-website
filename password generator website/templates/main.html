@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',filename='css/main-page-css.css') }}"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+  </head>
+
+  <body>
+    <a href="/">
+      <p>Home</p>
+    </a>
+    <br />
+    <br />
+    <h1>Password Generator</h1>
+    <br /><br />
+    <form action="" method="post">
+      <label for="specialCharacters"
+        >Would you like special characters (y/n)?
+      </label>
+      <input
+        type="text"
+        id="specialCharacters"
+        name="specialCharacters"
+        placeholder="Please enter y or n"
+      /><br /><br />
+      <label for="letters">Would you like letters (y/n)? </label>
+      <input
+        type="text"
+        id="letters"
+        name="letters"
+        placeholder="Please enter y or n"
+      /><br /><br />
+      <label for="numbers">Would you like numbers (y/n)? </label>
+      <input
+        type="text"
+        id="numbers"
+        name="numbers"
+        placeholder="Please enter y or n"
+      /><br /><br />
+      <label for="length">Enter length: </label>
+      <input
+        type="text"
+        id="length"
+        name="length"
+        placeholder="Please enter length"
+      />
+      <br />
+      <br />
+      <button>Generate</button>
+    </form>
+  </body>
+</html>

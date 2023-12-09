@@ -1,0 +1,15 @@
+h1 {
+  text-align: center;
+  color: aqua;
+  font: arial;
+}
+body {
+  background-color: rgb(41, 41, 41);
+}
+form {
+  color: tomato;
+  text-align: center;
+}
+a {
+  color: aqua;
+}

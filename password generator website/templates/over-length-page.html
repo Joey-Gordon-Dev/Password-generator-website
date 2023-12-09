@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',filename='css/over-length-page-css.css') }}"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lengh Too High</title>
+  </head>
+  <body>
+    <h1 class="lenError">
+      Error length of password is too high, The limit is {{ maxLength }}
+    </h1>
+    <a href="/" class="homeRedirect">
+      <h3>Go Back</h3>
+    </a>
+  </body>
+</html>

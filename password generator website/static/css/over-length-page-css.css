@@ -1,0 +1,13 @@
+h1.lenError {
+  color: red;
+  text-align: center;
+}
+
+a.homeRedirect {
+  color: aqua;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(41, 41, 41);
+}
